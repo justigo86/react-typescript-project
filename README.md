@@ -26,6 +26,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 
+Project link: https://www.youtube.com/watch?v=FJDVKeh7RJI
 ### Steps to complete project
 npx create-react-app
 delete unwanted files
