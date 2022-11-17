@@ -40,3 +40,22 @@ new file - components/styles.css
 new file - src/model.ts
   add Todo interface
 add todos array useState to App.jsx
+add handleAdd(e) function to App.jsx
+  include e.preventDefault() to prevent page refresh on button click
+  include it as a property to <InputField> and within InputField.tsx interface Props
+add inputRef (useRef()) in InputField - add to input
+add onSubmit to InputField form
+create TodoList component with interface Props
+  include in App.tsx
+create SingleTodo component with interface Props and React icons
+  include in TodoList.tsx
+  add handle Edit, Delete, Done functions to SingleTodo icons
+update styles.css for all components (up to this point)
+...
+install drag and drop package
+  npm i react-beautiful-dnd
+  npm i @types/react-beautiful-dnd
+add drag capabilities in App.tsx
+  wrap return in DragDropContext element
+add drag capabilities to TodoList
+  wrap container contents with Droppable element
